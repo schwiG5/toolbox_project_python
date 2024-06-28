@@ -16,3 +16,5 @@ Fonctionnalités
 
 Installation
 Prérequis python3
+
+afin de lancer l'app il suffit de bien installer le requirements.txt pour avoir toutes les librairies puis lancer "python3 toolbox.py"
