@@ -1,0 +1,50 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b312a;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #484b47;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.results {
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.back-home {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-home a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.back-home a:hover {
+    text-decoration: underline;
+}

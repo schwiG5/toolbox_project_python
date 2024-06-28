@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Résultats du Scan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Résultats pour {{ address }}</h1>
+        <div class="results">
+            {{ results_html | safe }}
+        </div>
+        <p class="error">Nombre d'erreurs : {{ error_count }}</p>
+        <div class="back-home">
+            <a href="/">Retour à l'accueil</a>
+        </div>
+        <div class="download-button">
+            <form action="/download_pdf" method="get">
+                <button type="submit">Télécharger en PDF</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
