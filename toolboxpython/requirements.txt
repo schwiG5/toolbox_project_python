@@ -1,0 +1,5 @@
+Flask
+requests
+xhtml2pdf
+python-whois
+python-nmap
